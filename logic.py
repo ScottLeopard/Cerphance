@@ -53,14 +53,6 @@ def main():
     strand_model = pygame.transform.rotozoom(strand_model, 0, 0.3)
     strand_model_rect = strand_model.get_rect(center=(700, 325))
 
-    cryo_model = pygame.image.load('graphics' + os.sep + 'cryo_enemy.png').convert_alpha()
-    cryo_model = pygame.transform.rotozoom(cryo_model, 0, 0.3)
-    cryo_model_rect = cryo_model.get_rect(center=(700, 325))
-
-    prime_model = pygame.image.load('graphics' + os.sep + 'prime_enemy.png').convert_alpha()
-    prime_model = pygame.transform.rotozoom(prime_model, 0, 0.3)
-    prime_model_rect = prime_model.get_rect(center=(700, 325))
-
     stats_model = pygame.image.load('graphics' + os.sep + 'stats.png').convert_alpha()
     stats_model = pygame.transform.rotozoom(stats_model, 0, 0.1)
     stats_model_rect = stats_model.get_rect(center=(825, 660))
